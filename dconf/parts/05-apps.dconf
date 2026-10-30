@@ -1,0 +1,130 @@
+[org/gnome/Totem]
+active-plugins=['movie-properties', 'save-file', 'vimeo', 'open-directory', 'autoload-subtitles', 'rotation', 'mpris', 'recent', 'screensaver', 'screenshot', 'skipto', 'apple-trailers', 'variable-rate']
+subtitle-encoding='UTF-8'
+
+[org/gnome/baobab/ui]
+is-maximized=true
+
+[org/gnome/cheese]
+burst-delay=1000
+camera='HD Webcam (V4L2)'
+photo-x-resolution=1280
+photo-y-resolution=720
+video-x-resolution=1280
+video-y-resolution=720
+
+[org/gnome/control-center]
+last-panel='power'
+window-state=(960, 547, true)
+
+[org/gnome/evince/default]
+window-ratio=(3.3011926889714993, 1.2398840769903763)
+
+[org/gnome/file-roller/listing]
+list-mode='as-folder'
+name-column-width=250
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[org/gnome/file-roller/ui]
+sidebar-width=200
+window-height=480
+window-width=907
+
+[org/gnome/gnome-system-monitor]
+cpu-smooth-graph=false
+cpu-stacked-area-chart=false
+current-tab='resources'
+logarithmic-scale=true
+maximized=true
+network-in-bits=true
+network-total-in-bits=true
+network-total-unit=false
+resources-memory-in-iec=false
+show-dependencies=false
+show-whose-processes='all'
+window-state=(1920, 1048, 0, 0)
+
+[org/gnome/gnome-system-monitor/disktreenew]
+col-1-visible=true
+col-1-width=212
+col-6-visible=true
+col-6-width=0
+
+[org/gnome/gnome-system-monitor/proctree]
+col-0-visible=true
+col-0-width=908
+col-3-visible=true
+col-3-width=0
+col-6-visible=true
+col-6-width=0
+columns-order=[0, 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+sort-col=0
+sort-order=0
+
+[org/gnome/nautilus/compression]
+default-compression-format='zip'
+
+[org/gnome/nautilus/icon-view]
+captions=['type', 'none', 'none']
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='list-view'
+migrated-gtk-settings=true
+search-filter-time-type='last_modified'
+search-view='list-view'
+
+[org/gnome/nautilus/window-state]
+initial-size=(960, 1036)
+maximized=true
+
+[org/gnome/rhythmbox]
+maximized=true
+position=(0, 0)
+size=(1920, 1011)
+
+[org/gnome/rhythmbox/player]
+volume=1.0
+
+[org/gnome/rhythmbox/plugins]
+active-plugins=['ipod', 'generic-player', 'notification', 'power-manager', 'iradio', 'mpris', 'audiocd', 'rb', 'artsearch', 'android', 'audioscrobbler', 'cd-recorder', 'mtpdevice', 'dbus-media-server']
+seen-plugins=['rblirc', 'fmradio', 'daap', 'pythonconsole', 'ipod', 'grilo', 'notification', 'rb', 'replaygain', 'artsearch', 'lyrics', 'webremote', 'im-status', 'listenbrainz', 'audioscrobbler', 'cd-recorder', 'mtpdevice', 'dbus-media-server', 'magnatune']
+
+[org/gnome/rhythmbox/plugins/audioscrobbler/Last.fm]
+scrobbling-enabled=true
+
+[org/gnome/rhythmbox/plugins/audioscrobbler/Libre.fm]
+scrobbling-enabled=true
+
+[org/gnome/rhythmbox/plugins/iradio]
+initial-stations-loaded=true
+
+[org/gnome/rhythmbox/rhythmdb]
+locations=['file:///home/vanhoade/Music']
+
+[org/gnome/simple-scan]
+document-type='photo'
+
+[org/gnome/software]
+check-timestamp=int64 1790563249
+first-run=false
+install-timestamp=int64 1789204904
+online-updates-timestamp=int64 1789206909
+update-notification-timestamp=int64 1790496916
+
+[org/gnome/terminal/legacy]
+mnemonics-enabled=false
+shortcuts-enabled=true
+
+[org/gnome/terminal/legacy/keybindings]
+close-tab='<Primary><Shift>w'
+close-window='<Primary><Shift>w'
+copy='<Primary>c'
+copy-html='<Primary><Shift>c'
+new-tab='<Primary>n'
+next-tab='<Primary>Tab'
+paste='<Primary>v'
+prev-tab='<Primary><Shift>Tab'
+select-all='<Primary>a'
+

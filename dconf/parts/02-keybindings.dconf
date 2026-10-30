@@ -1,0 +1,50 @@
+[org/gnome/desktop/wm/keybindings]
+maximize=@as []
+show-desktop=['<Super>d', '<Primary><Alt>d']
+switch-applications=@as []
+switch-windows=['<Alt>Tab']
+unmaximize=@as []
+
+[org/gnome/desktop/wm/preferences]
+button-layout=':minimize,maximize,close'
+
+
+[org/gnome/mutter]
+center-new-windows=false
+edge-tiling=false
+
+[org/gnome/mutter/keybindings]
+toggle-tiled-left=@as []
+toggle-tiled-right=@as []
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-enabled=false
+night-light-last-coordinates=(15.89870143988481, 108.133)
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/toggle-workspace/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/open-terminal/']
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Control><Alt>t'
+command='Launch terminal'
+name='Launch terminal'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/open-terminal]
+binding='<Control><Alt>t'
+command='gnome-terminal'
+name='Open Terminal'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/toggle-workspace]
+binding='<Super>Tab'
+command='/home/vanhoade/.local/bin/toggle-workspace.sh'
+name='Toggle Two Workspaces'
+
+[org/gnome/settings-daemon/plugins/power]
+power-button-action='nothing'
+sleep-inactive-ac-timeout=900
+sleep-inactive-ac-type='suspend'
+sleep-inactive-battery-timeout=900
+
+[org/gnome/settings-daemon/plugins/sharing/gnome-user-share-webdav]
+enabled-connections=@as []
+

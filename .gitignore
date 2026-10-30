@@ -1,0 +1,28 @@
+# 1. Bỏ qua tất cả file và thư mục
+*
+.*
+
+# 2. Cho phép file .gitignore, README và script
+!.gitignore
+!README.md
+!restore.sh
+
+# 3. Cho phép các thư mục chính
+!apt/
+!bin/
+!bin/ai/
+!configs/
+!dconf/
+!dconf/parts/
+
+# 4. Cho phép các file cụ thể
+!apt/manual_packages.list
+!bin/ai-selector.sh
+!bin/backup-to-github.sh
+!bin/toggle-workspace.sh
+!bin/ai/*.sh
+!configs/.bashrc
+!configs/.profile
+!configs/.gitconfig
+!dconf/full_gnome.dconf
+!dconf/parts/*.dconf
